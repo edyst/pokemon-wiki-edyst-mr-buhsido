@@ -322,6 +322,48 @@ h6 {
 	text-align: center;
 }
 
+.pokemon-card-container {
+	display: flex;
+	justify-content: center;
+}
+
+.carD {
+	width: 300px;
+	border: 1px solid rgba(29, 26, 26, 0.151);
+}
+
+.carD > h5 {
+	text-align: center;
+	font-size: 25px;
+}
+
+.carD > img {
+	display: block;
+	margin: 0 auto;
+}
+
+.headingGreyNinja {
+	margin-bottom: 0;
+	background: rgba(0, 0, 0, 0.03);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+	border-top: 16px solid #4992ca;
+}
+
+.headingGreyNinja > p {
+	font-weight: 700;
+	height: 45px;
+	color: #8a8a8a;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.carD-text {
+	padding-left: 38px;
+	padding-right: 38px;
+	text-align: center;
+}
+
 .generation {
 	text-align: center;
 	font-family: Avenir-Next, Roboto, sans-serif;
